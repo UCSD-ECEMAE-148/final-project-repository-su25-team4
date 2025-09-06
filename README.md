@@ -1,13 +1,33 @@
-# PROJECT TITLE
-MAE/ECE 148 Final Project
+# Autonomous Batmobile
+**MAE ECE 148 Team 4**
 
 ## Team Members:
-Karan 
-Burhan
-Avery
-Elizabeth
+Karan Humpal *(ECE)*
+Burhanuddin Mamujee *(MAE)*
+Avery Wu *(EXT. ROBOTICS)*
+Elizabeth Dam *(ECE)*
 
 ## Overview
-Our project has three main features. A stop sign detector that stops the car for 3 seconds then continues to move again until the camera detects the stop sign again.We run a model directly on the OAK-D-lite camera that detects the stop sign. The next feature we implemented is a speed/slow boost. If the camera detects green, it has a speed boost for X seconds. If the camera detects blue, it slows down for X seconds. The last feature we implemented is an obstacle avoider. Using the lidar, we detect an object and the car will avoid it and continue moving. 
+Our project has three main features that an autonomous batmobile should at least have. A [stop sign detector](#stop-sign-detector) that stops the car for 3 seconds then continues to move again. A [color detector](#color-detector), that speeds up when it detects green (the Joker), slows down when it detects blue (civilians), and stops on red. (We needed a way to stop the car) The last feature is an [obstacle avoider](#obstacle-avoider). The batmobile detects an obstacle and avoids it.
+
+## ROS2 Layout
+There were three main components per feature:
+* **CONSTANT_SPEED.py**
+blah
+
+* ***FEATURE*.py**
+blah
+
+* **CMD_ARBITER_*FEATURE*.py**
+blah
+
+### Stop Sign Detector
+PUBlIS
+
+### Color Detector
+
+### Obstacle Avoider
+
+
 
 
