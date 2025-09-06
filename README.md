@@ -2,9 +2,9 @@
 **MAE ECE 148 Team 4**
 
 ## Team Members:
-Karan Humpal *(ECE)*
-Burhanuddin Mamujee *(MAE)*
-Avery Wu *(EXT. ROBOTICS)*
+Karan Humpal *(ECE)* \
+Burhanuddin Mamujee *(MAE)* \
+Avery Wu *(EXT. ROBOTICS)* \
 Elizabeth Dam *(ECE)*
 
 ## Overview
@@ -21,6 +21,7 @@ blah
 * **CMD_ARBITER_*FEATURE*.py**
 blah
 
+## Features
 ### Stop Sign Detector
 PUBlIS
 
