@@ -1,10 +1,9 @@
-
-![ucsd logo p2](https://media.discordapp.net/attachments/1402478035529240616/1413304786371215480/UCSDLogo_JSOE_BlueGold.png?ex=68bd6c67&is=68bc1ae7&hm=203cd369ae17e38892ec1d876736cdfebe3b7d790c0d8e63bd2c526212343477&=&format=webp&quality=lossless)
-
 # **Autonomous Batmobile**
 **MAE ECE 148 Team 4**
 
-![image of robocar](https://media.discordapp.net/attachments/1402478035529240616/1413310283971035257/IMG_0712.jpg?ex=68bd7185&is=68bc2005&hm=27813eb02900b6d7515e61e5f6878601fdaff0f8027d589380c8b37351e5280f&=&format=webp&width=1280&height=960)
+<p align="center">
+  <img width="1000" height="1000" src="https://static0.cbrimages.com/wordpress/wp-content/uploads/2022/11/bat-signal-batman-89.jpg?q=50&fit=crop&w=825&dpr=1.5">
+</p>
 
 ## Team Members
 Karan Humpal *(EC80)* \
@@ -12,7 +11,10 @@ Burhanuddin Mamujee *(MC27)* \
 Chenhua (Avery) Wu *(EXT. ROBOTICS)* \
 Elizabeth Dam *(EC27)*
 
-![image of team](https://media.discordapp.net/attachments/1191295977496256575/1413926938463965224/IMG_5568.jpg?ex=68bdb593&is=68bc6413&hm=16344847ea56bdcef0c8cd25635e32a0340e2d473765894f4c77a0bc919e151c&=&format=webp&width=1203&height=960)
+<p align="center">
+  <img width="720" height="1800" src="https://media.discordapp.net/attachments/1191295977496256575/1413926938463965224/IMG_5568.jpg?ex=68bdb593&is=68bc6413&hm=16344847ea56bdcef0c8cd25635e32a0340e2d473765894f4c77a0bc919e151c&=&format=webp&width=1203&height=960">
+</p>
+
 *left to right: Chenhua(Avery) Wu, Elizabeth Dam, Karan Humpal, Burhanuddin Mamujee*
 
 ## Overview
@@ -113,6 +115,8 @@ Nodes:
 Issues We Faced:
 
 ## Robot Design
+![image of robocar](https://media.discordapp.net/attachments/1402478035529240616/1413310283971035257/IMG_0712.jpg?ex=68bd7185&is=68bc2005&hm=27813eb02900b6d7515e61e5f6878601fdaff0f8027d589380c8b37351e5280f&=&format=webp&width=1280&height=960)
+
 ### Schematic
 ![schematic](https://media.discordapp.net/attachments/1191295977496256575/1413932896401625238/image.png?ex=68bdbb20&is=68bc69a0&hm=7a4f4c297bf96f83e92fa3b1374bc1c8f04d7dbb00ad340ad6b7fd2564c11670&=&format=webp&quality=lossless)
 
@@ -150,5 +154,8 @@ Thank you to Alex, Jose, Jack and of course, the rest of the MAE ECE 148 SU25 cl
 | Burhanuddin Mamujee  | Content Cell  |
 | Chenhua(Avery) Wu  | Content Cell  |
 | Elizabeth Dam  | edam@ucsd.edu |
+
+
+![](https://media.discordapp.net/attachments/1402478035529240616/1413304786371215480/UCSDLogo_JSOE_BlueGold.png?ex=68bd6c67&is=68bc1ae7&hm=203cd369ae17e38892ec1d876736cdfebe3b7d790c0d8e63bd2c526212343477&=&format=webp&quality=lossless) 
 
 
