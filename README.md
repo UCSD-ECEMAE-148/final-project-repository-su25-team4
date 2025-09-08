@@ -12,7 +12,7 @@ Chenhua (Avery) Wu *(EXT. ROBOTICS)* \
 Elizabeth Dam *(EC27)*
 
 <p align="center">
-  <img width="720" height="1800" src="https://media.discordapp.net/attachments/1191295977496256575/1413926938463965224/IMG_5568.jpg?ex=68bdb593&is=68bc6413&hm=16344847ea56bdcef0c8cd25635e32a0340e2d473765894f4c77a0bc919e151c&=&format=webp&width=1203&height=960">
+  <img width="720" height="1800" src="https://github.com/user-attachments/assets/c3cd3f29-a65f-4f90-83c5-ed3f53f4aed9">
 </p>
 
 *left to right: Chenhua(Avery) Wu, Elizabeth Dam, Karan Humpal, Burhanuddin Mamujee*
@@ -117,17 +117,17 @@ Issues We Faced:
 For the obstacle detector, it was challenging to determine how the car should respond depending on its distance from the obstacle and what actions it should undertake. It took multiple attempts to fine-tune the car to determine the speed at which it would turn, the direction it would turn, and when the car should turn.
 
 ## Robot Design
-![image of robocar](https://media.discordapp.net/attachments/1402478035529240616/1413310283971035257/IMG_0712.jpg?ex=68bd7185&is=68bc2005&hm=27813eb02900b6d7515e61e5f6878601fdaff0f8027d589380c8b37351e5280f&=&format=webp&width=1280&height=960)
+![robocarphoto](https://github.com/user-attachments/assets/16f84003-9db7-4c19-a09a-141420ee9603)
 
 ### Schematic
-![schematic](https://media.discordapp.net/attachments/1191295977496256575/1413932896401625238/image.png?ex=68bdbb20&is=68bc69a0&hm=7a4f4c297bf96f83e92fa3b1374bc1c8f04d7dbb00ad340ad6b7fd2564c11670&=&format=webp&quality=lossless)
+<img width="1057" height="466" alt="schematic" src="https://github.com/user-attachments/assets/094f1275-dc90-437f-9e67-21a27038355c" />
 
 ### Hardware
 | Part  | CAD Design |
 | ------------- | ------------- |
-| Camera Mount  | ![cameramount](https://media.discordapp.net/attachments/1402478035529240616/1413634269309304993/image.png?ex=68bd4dc1&is=68bbfc41&hm=c89259f8ec31abf47c62be5a7b2d1d6547cefd3adaaab574db6d5af610cc97f4&=&format=webp&quality=lossless)  |
-| LiDAR/GPS Mount  | ![lidar/gps](https://media.discordapp.net/attachments/1402478035529240616/1413312468800766042/image.png?ex=68bd738e&is=68bc220e&hm=bdb063d4e3a1424f2c5b33aaaff354c9a48abd3a67bc113e4c5cbc90d854a475&=&format=webp&quality=lossless)  |
-| Top Plate  | ![top plate](https://media.discordapp.net/attachments/1402478035529240616/1413312856836931594/image.png?ex=68bd73eb&is=68bc226b&hm=01577990e6302ddd55e1969441ed32a88d8dc78ef271a871b7f8f147f7917828&=&format=webp&quality=lossless)  |
+| Camera Mount  |  <img width="686" height="698" alt="cameramount" src="https://github.com/user-attachments/assets/5560d788-4627-42bb-bb2b-10e5e177a63e" /> |
+| LiDAR/GPS Mount  | <img width="787" height="673" alt="lidargpsmount" src="https://github.com/user-attachments/assets/2d564156-1561-400f-b0eb-cc02f1ef60cc" /> |
+| Top Plate  | <img width="1148" height="766" alt="topplate" src="https://github.com/user-attachments/assets/91781bd1-71f7-48a3-af91-d8911715113c" /> |
 
 ## If we had another week
 If we had more time, we would expand the project with the following improvements:
@@ -136,7 +136,7 @@ If we had more time, we would expand the project with the following improvements
 * Advanced Behaviors: Design more complex power-ups using color detection, such as a spinning maneuver or other interactive responses.
 
 ## Gantt Chart
-![Gantt Chart](https://media.discordapp.net/attachments/1402478035529240616/1413301816648798208/Screenshot_2025-09-04_at_3.25.52_PM.png?ex=68bd69a2&is=68bc1822&hm=5bc64b736adb279d846a320cc0386f6fc2c08fae7c0448f1193751189eed0629&=&format=webp&quality=lossless&width=1872&height=520)
+<img width="1493" height="415" alt="gannt" src="https://github.com/user-attachments/assets/a4da4cae-964a-4dd1-94bf-0eeff25d2d40" />
 
 ## Past Batmobile Accomplishments
 * [Donkey Car Autonomous Laps](https://youtu.be/wXakF6iPv3Q?si=_Q1qe9eq6RRz-gBj)
