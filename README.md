@@ -50,7 +50,7 @@ Features used in **ucsd_robocar_hub2**:
 * **ucsd_robocar_nav2_pkg** to turn on components and launch multiple nodes at once
 
 ## Features
-### Stop Sign Detector
+### <ins>Stop Sign Detector</ins>
 The stop sign detector stops for 3 seconds when the OAK-D-lite sees a stop sign. We used a [model from Roboflow Universe](https://universe.roboflow.com/sign-detection-h24ey/stop-sign-h0vwm) and implemented it to our ROS2 package. The stopsign_detection_node.py publishes VESC values to stop_cmd that stops the throttle and steering. constant_speed.py publishes a constant speed of 0.4 to constant_cmd. cmd_arbiter.py subscribes to the topics mentioned. It publishes the values from constant_cmd, unless a value from stop_cmd is received, to cmd_vel. vesc_twist_node.py handles the movement of the VESC and is subscribed to cmd_vel.
 
 [Stop Sign Detector In Action](https://youtu.be/6DBiqFDt8yI)
@@ -71,7 +71,7 @@ Nodes:
 Issues We Faced:
 We faced power supply issues with our Jetson from the DC-DC converter and an unreliable Jetson, so we had to get them replaced. After that, the only problems faced were learning how to use ROS2 to implement our ideas, as it was our first time making our own ROS2 packages. We attempted to connect to the VESC directly through our Python executable files, but were unsuccessful. Instead, we opted to turn the VESC on using the provided ucsd_robocar_hub2.
 
-### Color Detector
+### <ins>Color Detector</ins>
 The color detector speeds up when green is detected, slows down when blue is detected, and stops when red is detected. We used OpenCV to filter out and detect the colors. color_detection_final.py detects if a color is seen and then publishes the corresponding VESC values to color_cmd. Then it has its own arbiter, cmd_arbiter_color.py, that uses similar logic as the stop sign's arbiter. It publishes the constant_cmd values to cmd_vel unless a value from color_cmd is received.
 
 [Color Detector In Action](https://youtu.be/pb56wiNUj_I)
@@ -92,7 +92,7 @@ Nodes:
 Issues We Faced:
 After all the troubleshooting with the stop sign detector, the implementation of the color detector was smooth sailing due to their similar nature.
 
-### Obstacle Avoider
+### <ins>Obstacle Avoider</ins>
 The obstacle avoider uses the LiDAR to detect obstacles. lidar_detection_final.py subscribes to to /scan topic, which receives messages from sub_lidar_node.py. We determined the angle that is considered the front of the robot and computes VESC values to avoid the obstacle (depending on if it is on the right/left/center). The VESC values get published to lider_cmd. cmd_arbiter_lidar.py uses the constant_cmd values unless a value from lidar_cmd is given. The end value gets published to cmd_vel for the vest_twist_node.py to handle.
 
 [Obstacle Avoider In Action](https://youtu.be/g9mnh_GOr-M)
@@ -155,9 +155,9 @@ Thank you to Alex, Jose, Jack and of course, the rest of the MAE ECE 148 SU25 cl
 ## Contact Information
 | Team Member  | Email |
 | ------------- | ------------- |
-| Karan Humpal  | Content Cell  |
-| Burhanuddin Mamujee  | Content Cell  |
-| Chenhua(Avery) Wu  | Content Cell  |
+| Karan Humpal  | khumpal@ucsd.edu  |
+| Burhanuddin Mamujee  | bmamujee@ucsd.edu |
+| Chenhua(Avery) Wu  | averywcc@gmail.com |
 | Elizabeth Dam  | edam@ucsd.edu |
 
 
