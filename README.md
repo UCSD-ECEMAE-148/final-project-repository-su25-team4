@@ -69,7 +69,7 @@ Nodes:
      * Subscribers: cmd_vel
     
 Issues We Faced:
-
+We faced power supply issues with our Jetson from the DC-DC converter and an unreliable Jetson, so we had to get them replaced. After that, the only problems faced were learning how to use ROS2 to implement our ideas, as it was our first time making our own ROS2 packages. We attempted to connect to the VESC directly through our Python executable files, but were unsuccessful. Instead, we opted to turn the VESC on using the provided ucsd_robocar_hub2.
 
 ### Color Detector
 The color detector speeds up when green is detected, slows down when blue is detected, and stops when red is detected. We used OpenCV to filter out and detect the colors. color_detection_final.py detects if a color is seen and then publishes the corresponding VESC values to color_cmd. Then it has its own arbiter, cmd_arbiter_color.py, that uses similar logic as the stop sign's arbiter. It publishes the constant_cmd values to cmd_vel unless a value from color_cmd is received.
@@ -90,6 +90,7 @@ Nodes:
      * Subscribers: cmd_vel
 
 Issues We Faced:
+After all the troubleshooting with the stop sign detector, the implementation of the color detector was smooth sailing due to their similar nature.
 
 ### Obstacle Avoider
 The obstacle avoider uses the LiDAR to detect obstacles. lidar_detection_final.py subscribes to to /scan topic, which receives messages from sub_lidar_node.py. We determined the angle that is considered the front of the robot and computes VESC values to avoid the obstacle (depending on if it is on the right/left/center). The VESC values get published to lider_cmd. cmd_arbiter_lidar.py uses the constant_cmd values unless a value from lidar_cmd is given. The end value gets published to cmd_vel for the vest_twist_node.py to handle.
@@ -113,6 +114,7 @@ Nodes:
      * Publishers: /scan
 
 Issues We Faced:
+For the obstacle detector, it was challenging to determine how the car should respond depending on its distance from the obstacle and what actions it should undertake. It took multiple attempts to fine-tune the car to determine the speed at which it would turn, the direction it would turn, and when the car should turn.
 
 ## Robot Design
 ![image of robocar](https://media.discordapp.net/attachments/1402478035529240616/1413310283971035257/IMG_0712.jpg?ex=68bd7185&is=68bc2005&hm=27813eb02900b6d7515e61e5f6878601fdaff0f8027d589380c8b37351e5280f&=&format=webp&width=1280&height=960)
@@ -128,7 +130,10 @@ Issues We Faced:
 | Top Plate  | ![top plate](https://media.discordapp.net/attachments/1402478035529240616/1413312856836931594/image.png?ex=68bd73eb&is=68bc226b&hm=01577990e6302ddd55e1969441ed32a88d8dc78ef271a871b7f8f147f7917828&=&format=webp&quality=lossless)  |
 
 ## If we had another week
-If we had another week,
+If we had more time, we would expand the project with the following improvements:
+* Integrated Perception: Combine color detection, stop sign detection, obstacle avoidance, and lane detection into a single robust pipeline.
+* Additional Sensors: Add an extra camera to improve the field of view, and utilize a dedicated power source for the camera and LiDAR to ensure reliability.
+* Advanced Behaviors: Design more complex power-ups using color detection, such as a spinning maneuver or other interactive responses.
 
 ## Gantt Chart
 ![Gantt Chart](https://media.discordapp.net/attachments/1402478035529240616/1413301816648798208/Screenshot_2025-09-04_at_3.25.52_PM.png?ex=68bd69a2&is=68bc1822&hm=5bc64b736adb279d846a320cc0386f6fc2c08fae7c0448f1193751189eed0629&=&format=webp&quality=lossless&width=1872&height=520)
